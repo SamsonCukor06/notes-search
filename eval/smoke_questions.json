@@ -1,0 +1,67 @@
+[
+  {
+    "id": "C1",
+    "type": "concept",
+    "question": "What does the gradient vector of a function tell you, and how is it related to the directional derivative?",
+    "expected_sections": ["11.6"]
+  },
+  {
+    "id": "C2",
+    "type": "concept",
+    "question": "When is a vector field conservative, and how can you test whether it is?",
+    "expected_sections": ["13.3"]
+  },
+  {
+    "id": "C3",
+    "type": "concept",
+    "question": "What does the curl of a vector field measure geometrically?",
+    "expected_sections": ["13.5a"]
+  },
+  {
+    "id": "C4",
+    "type": "concept",
+    "question": "What does the Divergence Theorem relate, and what does the surface have to satisfy?",
+    "expected_sections": ["13.8"]
+  },
+  {
+    "id": "C5",
+    "type": "concept",
+    "question": "How do you decide whether to use cylindrical or spherical coordinates for a triple integral?",
+    "expected_sections": ["12.8"]
+  },
+  {
+    "id": "P1",
+    "type": "computation",
+    "question": "Find the curl of F(x, y, z) = <x^2 y, y z, x z^2>.",
+    "expected_sections": ["13.5a"],
+    "expected_answer": "curl F = <-y, -z^2, -x^2>"
+  },
+  {
+    "id": "P2",
+    "type": "computation",
+    "question": "Find the gradient of f(x, y, z) = x^2 y + e^(y z) at the point (1, 0, 2).",
+    "expected_sections": ["11.6"],
+    "expected_answer": "grad f(1, 0, 2) = <0, 3, 0>"
+  },
+  {
+    "id": "P3",
+    "type": "computation",
+    "question": "Evaluate the line integral of F(x, y) = <y, x> along the curve r(t) = <t, t^2> for 0 <= t <= 1.",
+    "expected_sections": ["13.2", "13.3"],
+    "expected_answer": "1"
+  },
+  {
+    "id": "P4",
+    "type": "computation",
+    "question": "Compute the double integral of f(x, y) = x y^2 over the rectangle 0 <= x <= 2, 0 <= y <= 3.",
+    "expected_sections": ["12.1", "12.3"],
+    "expected_answer": "18"
+  },
+  {
+    "id": "P5",
+    "type": "computation",
+    "question": "Use Green's theorem to evaluate the line integral of (x^2 - y) dx + (x + y^2) dy around the unit circle, counterclockwise.",
+    "expected_sections": ["13.4"],
+    "expected_answer": "2 pi"
+  }
+]
