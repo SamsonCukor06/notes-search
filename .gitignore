@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv*/
+.pytest_cache/
+
+# Private: the lecture-note text and everything built from it stay off git.
+# (The notes come from a university course, so they are not mine to publish.)
+data/
+results/
+local_config.json
+
+# Secrets and OS clutter
+.env
+.DS_Store
+
+# Local editor/agent config
+.claude/
+
+# Method labels quote the notes' section headings, so they stay private too
+eval/private/
+
+# Desktop app builds (large; .nosync keeps them out of iCloud)
+dist.nosync/
+build.nosync/
