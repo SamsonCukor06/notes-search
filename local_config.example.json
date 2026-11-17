@@ -1,0 +1,5 @@
+{
+  "notes_dir": "~/path/to/your/vector calculus notes",
+  "exclude_dirs": ["Written Assignments", "Practice Tests"],
+  "exclude_files": ["Some Slide Deck.pdf"]
+}
