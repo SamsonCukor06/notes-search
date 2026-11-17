@@ -1,0 +1,23 @@
+# Serve the app only on this computer (the notes are private), and send no usage stats.
+[server]
+address = "localhost"
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"  # hide the developer menu and Deploy button
+
+[theme]
+base = "light"
+primaryColor = "#3d4fd6"
+backgroundColor = "#f6f4ee"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#1d1c1a"
+baseFontSize = 18
+baseRadius = "0.9rem"
+showSidebarBorder = false
+# Fonts load from Google Fonts in the browser; without internet they fall back to system fonts.
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap, sans-serif"
+headingFont = "Fraunces:https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&display=swap, serif"
